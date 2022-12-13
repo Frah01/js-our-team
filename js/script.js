@@ -37,7 +37,7 @@ let container = document.getElementById('content')
 
 for(let i=0; i<team.length; i++){
     let teams = team[i];
-    let element = `<div class="content card">${teams.name}${teams.role} ${teams.image}</div>`
+    let element = `<div class="content card">${teams.name} ${teams.role} ${teams.image}</div>`
     container.innerHTML += element
     console.log(`${teams.name} ${teams.role} ${teams.image}`)
 }
