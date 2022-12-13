@@ -32,4 +32,17 @@ let team = [
 
 ]
 
-console.log(team)
+
+for(let i=0; i<team.length; i++){
+    let teams = team[i];
+    document.getElementById('content').innerHTML += (`${teams.name} ${teams.role} ${teams.image}`)
+}
+
+// for(let key in team){
+//     
+//     console.log(team[key])
+// }
+
+
+ 
+
