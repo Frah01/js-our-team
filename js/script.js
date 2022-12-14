@@ -38,7 +38,7 @@ let container = document.getElementById('content')
 for(let i=0; i<team.length; i++){
     let teams = team[i];
     let element = 
-    `<div class="card my-2" style="width: 18rem;">
+    `<div class="card my-2 shadow bg-body rounded " style="width: 18rem;">
         <img src="${teams.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h4 class="card-text text-center">${teams.name}</h4>
