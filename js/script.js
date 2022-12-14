@@ -46,7 +46,8 @@ for(let i=0; i<team.length; i++){
     `<div class="card" style="width: 18rem;">
         <img src="${teams.image}" class="card-img-top" alt="...">
         <div class="card-body">
-            <p class="card-text">${teams.name} ${teams.role}</p>
+            <p class="card-text text-center">${teams.name}</p>
+            <p class="card-text text-center">${teams.role}</p>
         </div>
     </div>`
     container.innerHTML += element
