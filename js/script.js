@@ -37,11 +37,6 @@ let container = document.getElementById('content')
 
 for(let i=0; i<team.length; i++){
     let teams = team[i];
-
-    // for(let key in team){
-    //     console.log(teams[key])
-    // }
-
     let element = 
     `<div class="card" style="width: 18rem;">
         <img src="${teams.image}" class="card-img-top" alt="...">
