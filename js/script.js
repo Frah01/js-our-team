@@ -41,10 +41,14 @@ for(let i=0; i<team.length; i++){
     // for(let key in team){
     //     console.log(teams[key])
     // }
-    
+
     let element = 
-    `<div class="content-js card"><h4>${teams.name}</h4>
-     <h4>${teams.role}</h4> <div><img src="${teams.image}"</div></div>`
+    `<div class="card" style="width: 18rem;">
+        <img src="${teams.image}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">${teams.name} ${teams.role}</p>
+        </div>
+    </div>`
     container.innerHTML += element
     console.log(`${teams.name} - ${teams.role} - ${teams.image}`)
 }
